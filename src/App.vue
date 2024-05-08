@@ -9,7 +9,7 @@
           </div>
 
           <img src="./assets/foto_elon.jpg" alt="" />
-          <p>RUN 22.222.222-2</p>
+          <p>{{ run }}</p>
         </aside>
 
         <main>
@@ -59,7 +59,7 @@
             </div>
             <article>
               <header>FIRMA DEL TITULAR</header>
-              <span>X Æ A-12</span>
+              <span>{{ firmaDelTitular }}</span>
             </article>
           </section>
         </main>
@@ -82,6 +82,7 @@ export default {
       numeroDeDocumento: "AOPX-2345",
       fechaDeEmision: "01 ENERO 2025",
       fechaDeVencimiento: "01 ENERO 2030",
+      firmaDelTitular:"X Æ A-12",
     };
   },
 };
